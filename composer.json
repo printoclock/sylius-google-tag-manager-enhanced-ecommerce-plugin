@@ -56,12 +56,9 @@
             "symfony/flex": true,
             "phpstan/extension-installer": true
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.0-dev"
-        }
-    },
+    },    
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "StefanDoorn\\SyliusGtmEnhancedEcommercePlugin\\": "src/",
